@@ -1,11 +1,10 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import "@/styles/global.css";
+import Headerrr from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Pet App",
-  description: "Pet App",
+  title: "Petgarious",
+  description: "Discover pet information and share your pet stories.",
 };
 
 export default function RootLayout({
@@ -15,7 +14,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <main>
+          <Headerrr />
+          {children}
+          <Footer />
+        </main>
+      </body>
     </html>
   );
 }
