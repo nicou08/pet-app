@@ -1,38 +1,34 @@
 import AnimalComp from "@/components/AnimalComp";
-import clientPromise from "@/utils/mongodbCon";
 
-// async function getAnimals( animal: string) {
-//   const res = await fetch(process.env.MONGODB_URI!);
-//   return res.json();
-// }
-
-// async function getAnimals() {
-//   console.log("Beforeeeee");
-//   const res = await fetch("http://localhost:3000/api/animals");
-//   console.log("Afterrrrrr");
-//   // console.log(res);
-//   // console.log(res.json());
-//   const text = await res.text();
-//   console.log(JSON.parse(text))
-//   // // Recommendation: handle errors
-//   // if (!res.ok) {
-//   //   // This will activate the closest `error.js` Error Boundary
-//   //   throw new Error("Failed to fetch data");
-//   // }
-
-//   return res.json();
-// }
+async function getAnimals() {
+  const res = await fetch("http://localhost:3000/api/animals");
+  return res.json();
+}
 
 
-
+interface anm {
+  id: string;
+  animal: string;
+  type: string;
+  tags: string[];
+  description: string;
+}
 
 export default async function Animals() { 
-  // const animalData = await getAnimals();
-  // console.log(animalData);
+  const animalData = await getAnimals();
+  console.log("animalData")
+  console.log(animalData);
+  console.log("afterANIMALDATAAAAAA")
+
 
   return (
     <div>
       <div className="text-4xl">ANIMALSssssAs PAGEee </div>
+      <ul>
+        {animalData.map((anmm : anm) => (
+          <li key={anmm.id}>This is {anmm.animal}</li>
+        ))}
+      </ul>
     </div>
   );
 }

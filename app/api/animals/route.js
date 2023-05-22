@@ -1,6 +1,6 @@
 import clientPromise from "@/utils/mongodbCon";
 
-export async function GET(req, res) {
+export async function GET() {
   try {
     const client = await clientPromise;
     const db = client.db("pet-app-db");
@@ -10,8 +10,8 @@ export async function GET(req, res) {
         .collection("pet-app-collection-animal-info")
         .find()
         .toArray();
-      console.log("RESULTSTTT");
-      console.log(pets);
+      //console.log("RESULTSTTT");
+      //console.log(pets);
 
       return new Response(JSON.stringify(pets));
     } catch (e) {
