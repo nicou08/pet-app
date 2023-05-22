@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/animals/[spec]"],
-  "exclude": ["node_modules"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/animals/[type]", "app/api/animals.js", "utils/mongodbCon.ts", "app/api/hello.js"],
+  "exclude": ["node_modules", "utils/mongodbCon.ts"]
 }
