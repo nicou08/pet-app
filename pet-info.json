@@ -11,7 +11,8 @@
             "playful",
             "paws"
         ],
-        "description": "Dogs are domesticated mammals known for their loyal companionship and diverse breeds. They are descended from wolves and have been selectively bred by humans for thousands of years. Dogs come in various shapes, sizes, and coat types, each with its own unique traits and temperaments. They are highly social animals, forming strong bonds with their human owners and often displaying remarkable intelligence and trainability. Dogs serve a variety of roles, including as working animals, service animals, and beloved pets, bringing joy, love, and a sense of security to countless households worldwide."
+        "description": "Dogs are domesticated mammals known for their loyal companionship and diverse breeds. They are descended from wolves and have been selectively bred by humans for thousands of years. Dogs come in various shapes, sizes, and coat types, each with its own unique traits and temperaments. They are highly social animals, forming strong bonds with their human owners and often displaying remarkable intelligence and trainability. Dogs serve a variety of roles, including as working animals, service animals, and beloved pets, bringing joy, love, and a sense of security to countless households worldwide.",
+        "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2148&q=80"
     },
     {
         "_id": "2",
@@ -24,7 +25,8 @@
             "solitary",
             "paws"
         ],
-        "description": "Cats are small, carnivorous mammals known for their independent nature and agility. With their soft fur, mesmerizing eyes, and graceful movements, they have become beloved companions to humans. Cats exhibit a wide range of breeds, each with its own unique characteristics, but they are generally known for their hunting abilities, affectionate behavior, and the ability to provide comfort and companionship to their owners."
+        "description": "Cats are small, carnivorous mammals known for their independent nature and agility. With their soft fur, mesmerizing eyes, and graceful movements, they have become beloved companions to humans. Cats exhibit a wide range of breeds, each with its own unique characteristics, but they are generally known for their hunting abilities, affectionate behavior, and the ability to provide comfort and companionship to their owners.",
+        "image": "https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
     },
         {
         "_id": "3",
@@ -37,7 +39,8 @@
             "swim",
             "fin"
         ],
-        "description": "Fish are aquatic creatures with streamlined bodies, gills for breathing underwater, and fins for propulsion. They come in various sizes, shapes, and colors, inhabiting diverse marine and freshwater environments, and are known for their ability to swim and breathe underwater."
+        "description": "Fish are aquatic creatures with streamlined bodies, gills for breathing underwater, and fins for propulsion. They come in various sizes, shapes, and colors, inhabiting diverse marine and freshwater environments, and are known for their ability to swim and breathe underwater.",
+        "image": "https://images.unsplash.com/photo-1544943910-4c1dc44aab44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1294&q=80"
     },
     {
         "_id": "4",
@@ -50,7 +53,8 @@
             "wings"
 
         ],
-        "description": "Birds are feathered, warm-blooded animals characterized by their ability to fly. They possess beaks, wings, and lay hard-shelled eggs. With incredible diversity in size, color, and behavior, birds inhabit various habitats across the globe, enchanting us with their melodious songs, intricate plumage, and remarkable aerial acrobatics."
+        "description": "Birds are feathered, warm-blooded animals characterized by their ability to fly. They possess beaks, wings, and lay hard-shelled eggs. With incredible diversity in size, color, and behavior, birds inhabit various habitats across the globe, enchanting us with their melodious songs, intricate plumage, and remarkable aerial acrobatics.",
+        "image": "https://images.unsplash.com/photo-1620694563886-c3a80ec55f41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
     },
     {
         "_id": "5",
@@ -60,7 +64,8 @@
             "hairy",
             "active"
         ],
-        "description": "Hamsters are small, furry rodents known for their adorable appearance and playful nature. They have stout bodies, short legs, and prominent cheek pouches for storing food. Often kept as popular pets, hamsters are active, burrowing animals that enjoy running on exercise wheels and building intricate tunnels in their habitats."
+        "description": "Hamsters are small, furry rodents known for their adorable appearance and playful nature. They have stout bodies, short legs, and prominent cheek pouches for storing food. Often kept as popular pets, hamsters are active, burrowing animals that enjoy running on exercise wheels and building intricate tunnels in their habitats.",
+        "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
     },
     {
         "_id": "6",
@@ -71,7 +76,8 @@
             "fluffy",
             "squeak"
         ],
-        "description": "Guinea pigs are small, sociable rodents native to South America, often kept as beloved pets. With their round bodies, short legs, and distinctive squeaks, they have an endearing charm. Known for their docile temperament, guinea pigs enjoy human interaction and require companionship, making them popular as cuddly and interactive pets."
+        "description": "Guinea pigs are small, sociable rodents native to South America, often kept as beloved pets. With their round bodies, short legs, and distinctive squeaks, they have an endearing charm. Known for their docile temperament, guinea pigs enjoy human interaction and require companionship, making them popular as cuddly and interactive pets.",
+        "image": ""
     },
     {
         "_id": "7",
@@ -83,7 +89,8 @@
             "fluffy",
             "ears"
         ],
-        "description": "Rabbits are small mammals known for their long ears, fluffy tails, and powerful hind legs. They are herbivores, feeding primarily on vegetation. With a wide range of breeds, rabbits come in various sizes and coat colors. Often kept as pets, they can be affectionate and social creatures, enjoying gentle interactions and hopping around playfully."
+        "description": "Rabbits are small mammals known for their long ears, fluffy tails, and powerful hind legs. They are herbivores, feeding primarily on vegetation. With a wide range of breeds, rabbits come in various sizes and coat colors. Often kept as pets, they can be affectionate and social creatures, enjoying gentle interactions and hopping around playfully.",
+        "image": "https://images.unsplash.com/photo-1609151354448-c4a53450c6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80"
     },
     {
         "_id": "8",
@@ -93,7 +100,8 @@
             "reptile",
             "cool"
         ],
-        "description": "Lizards are a diverse group of reptiles characterized by their scaly skin, four legs (or sometimes no legs), and the ability to shed their tails. They are found in a wide range of habitats worldwide, from deserts to rainforests. Lizards exhibit a variety of adaptations, such as camouflage, impressive climbing abilities, and some can even change color. They play important roles in ecosystems as both predators and prey, and many species are kept as fascinating pets due to their unique appearances and behaviors."
+        "description": "Lizards are a diverse group of reptiles characterized by their scaly skin, four legs (or sometimes no legs), and the ability to shed their tails. They are found in a wide range of habitats worldwide, from deserts to rainforests. Lizards exhibit a variety of adaptations, such as camouflage, impressive climbing abilities, and some can even change color. They play important roles in ecosystems as both predators and prey, and many species are kept as fascinating pets due to their unique appearances and behaviors.",
+        "image": "https://images.unsplash.com/photo-1542750622-cdca53b46d5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
     },
     {
         "_id": "9",
@@ -104,7 +112,8 @@
             "water",
             "shell"
         ],
-        "description": "Turtles are reptiles known for their protective shells, which are a unique feature among vertebrates. They have a bony or cartilaginous shell that provides them with a sturdy defense. Turtles are well-adapted for aquatic life, with webbed feet or flippers for swimming, and some species are capable of retracting their heads and limbs into their shells for added protection. Found in both marine and freshwater environments, turtles have a slow but steady pace of life and are known for their longevity. They are fascinating creatures with a rich evolutionary history and are often kept as captivating pets."
+        "description": "Turtles are reptiles known for their protective shells, which are a unique feature among vertebrates. They have a bony or cartilaginous shell that provides them with a sturdy defense. Turtles are well-adapted for aquatic life, with webbed feet or flippers for swimming, and some species are capable of retracting their heads and limbs into their shells for added protection. Found in both marine and freshwater environments, turtles have a slow but steady pace of life and are known for their longevity. They are fascinating creatures with a rich evolutionary history and are often kept as captivating pets.",
+        "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
     },
     {
         "_id": "10",
@@ -114,7 +123,8 @@
             "feathers",
             "quack"
         ],
-        "description": "Ducks are waterfowl known for their distinctive webbed feet, waterproof feathers, and characteristic 'quack' sound. They are found in various aquatic habitats, such as lakes, ponds, and rivers. Ducks have a diverse range of species, sizes, and colors, with males often displaying vibrant plumage. They are skilled swimmers and feed primarily on aquatic plants, small invertebrates, and sometimes small fish. Ducks are known for their social behavior, forming flocks and engaging in courtship displays. They are beloved by many and are often featured in ponds, parks, and farms, adding charm to their surroundings."
+        "description": "Ducks are waterfowl known for their distinctive webbed feet, waterproof feathers, and characteristic 'quack' sound. They are found in various aquatic habitats, such as lakes, ponds, and rivers. Ducks have a diverse range of species, sizes, and colors, with males often displaying vibrant plumage. They are skilled swimmers and feed primarily on aquatic plants, small invertebrates, and sometimes small fish. Ducks are known for their social behavior, forming flocks and engaging in courtship displays. They are beloved by many and are often featured in ponds, parks, and farms, adding charm to their surroundings.",
+        "image": "https://images.unsplash.com/photo-1578956919791-af7615c94b90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1339&q=80"
     },
     {
         "_id": "11",
@@ -124,7 +134,8 @@
             "cold-blooded",
             "reptile"
         ],
-        "description": "Snakes are elongated, legless reptiles known for their unique adaptations and diverse species. They possess scales, a forked tongue for sensing their environment, and a jaw structure that allows them to swallow prey whole. With their remarkable flexibility and venomous capabilities in some species, snakes have evolved to thrive in a variety of habitats and play important ecological roles as both predators and prey."
+        "description": "Snakes are elongated, legless reptiles known for their unique adaptations and diverse species. They possess scales, a forked tongue for sensing their environment, and a jaw structure that allows them to swallow prey whole. With their remarkable flexibility and venomous capabilities in some species, snakes have evolved to thrive in a variety of habitats and play important ecological roles as both predators and prey.",
+        "image": "https://images.unsplash.com/photo-1472645977521-95bbf4f0a748?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
     },
     {
         "_id": "12",
@@ -134,7 +145,8 @@
             "farm-animal",
             "large-area"
         ],
-        "description": "Horses are large, herbivorous mammals known for their strength, grace, and remarkable speed. They have a long history of domestication and have been used for transportation, agriculture, and sport. With their powerful muscles, flowing manes, and expressive eyes, horses have forged a deep bond with humans and continue to captivate us with their beauty and elegance."
+        "description": "Horses are large, herbivorous mammals known for their strength, grace, and remarkable speed. They have a long history of domestication and have been used for transportation, agriculture, and sport. With their powerful muscles, flowing manes, and expressive eyes, horses have forged a deep bond with humans and continue to captivate us with their beauty and elegance.",
+        "image": "https://images.unsplash.com/photo-1460999158988-6f0380f81f4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
     },
     {
         "_id": "13",
@@ -146,7 +158,8 @@
             "milk",
             "moo"
         ],
-        "description": "Cows, also known as bovines, are large domesticated mammals that are primarily raised for their meat, milk, and leather. They have a complex digestive system that allows them to efficiently process plant material. Cows are social animals that often form herds, and they have a gentle disposition, making them important livestock animals and symbols of pastoral landscapes."
+        "description": "Cows, also known as bovines, are large domesticated mammals that are primarily raised for their meat, milk, and leather. They have a complex digestive system that allows them to efficiently process plant material. Cows are social animals that often form herds, and they have a gentle disposition, making them important livestock animals and symbols of pastoral landscapes.",
+        "image": "https://images.unsplash.com/photo-1551606712-ce1d9e8fbee4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
     },
     {
         "_id": "14",
@@ -158,7 +171,8 @@
             "large-area",
             "ears"
         ],
-        "description": "Donkeys, also known as asses, are domesticated mammals closely related to horses. They are known for their long ears, stocky build, and characteristic braying sound. Donkeys have been historically used as working animals for transportation and agriculture, and they are known for their endurance, strength, and surefootedness in rugged terrains. They have also gained popularity as companion animals and are valued for their gentle temperament and intelligence."
+        "description": "Donkeys, also known as asses, are domesticated mammals closely related to horses. They are known for their long ears, stocky build, and characteristic braying sound. Donkeys have been historically used as working animals for transportation and agriculture, and they are known for their endurance, strength, and surefootedness in rugged terrains. They have also gained popularity as companion animals and are valued for their gentle temperament and intelligence.",
+        "image": "https://images.unsplash.com/photo-1607200803213-73f8d03ecd55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
     },
     {
         "_id": "15",
@@ -170,7 +184,8 @@
             "howl",
             "cute"
         ],
-        "description": "Wolves are highly social and intelligent carnivorous mammals belonging to the canid family. They are known for their pack behavior, with a hierarchical structure and cooperative hunting strategies. Wolves have a wide range of adaptations, including sharp teeth, powerful jaws, and keen senses, which enable them to be successful predators. They play a crucial role in maintaining ecosystem balance and have a rich cultural significance, often symbolizing loyalty, resilience, and the untamed spirit of the wilderness."
+        "description": "Wolves are highly social and intelligent carnivorous mammals belonging to the canid family. They are known for their pack behavior, with a hierarchical structure and cooperative hunting strategies. Wolves have a wide range of adaptations, including sharp teeth, powerful jaws, and keen senses, which enable them to be successful predators. They play a crucial role in maintaining ecosystem balance and have a rich cultural significance, often symbolizing loyalty, resilience, and the untamed spirit of the wilderness.",
+        "image": "https://images.unsplash.com/photo-1588167056547-c183313da47c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1431&q=80"
     },
     {
         "_id": "16",
@@ -180,7 +195,8 @@
             "hairy",
             "cute"
         ],
-        "description": "Hedgehogs are small spiny mammals known for their distinct appearance. They have a protective covering of sharp spines on their backs and sides, which they can roll into a defensive ball when threatened. Hedgehogs are nocturnal creatures and primarily feed on insects, worms, and other small invertebrates. With their endearing charm and low-maintenance care requirements, they have become popular pets in some regions, captivating owners with their adorable demeanor and unique quill-covered appearance."
+        "description": "Hedgehogs are small spiny mammals known for their distinct appearance. They have a protective covering of sharp spines on their backs and sides, which they can roll into a defensive ball when threatened. Hedgehogs are nocturnal creatures and primarily feed on insects, worms, and other small invertebrates. With their endearing charm and low-maintenance care requirements, they have become popular pets in some regions, captivating owners with their adorable demeanor and unique quill-covered appearance.",
+        "image": "https://images.unsplash.com/photo-1568431477192-52bb13a55088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
     },
     {
         "_id": "17",
@@ -190,7 +206,8 @@
             "hairy",
             "insect"
         ],
-        "description": "Tarantulas are large, hairy spiders belonging to the family Theraphosidae. They are known for their intimidating appearance and venomous fangs, although most species are not dangerous to humans. Tarantulas are skilled predators, using their powerful legs to capture and immobilize prey. They play a vital role in ecosystems as natural pest controllers, and some species are kept as exotic pets by arachnid enthusiasts, appreciating their fascinating behavior and intriguing beauty."
+        "description": "Tarantulas are large, hairy spiders belonging to the family Theraphosidae. They are known for their intimidating appearance and venomous fangs, although most species are not dangerous to humans. Tarantulas are skilled predators, using their powerful legs to capture and immobilize prey. They play a vital role in ecosystems as natural pest controllers, and some species are kept as exotic pets by arachnid enthusiasts, appreciating their fascinating behavior and intriguing beauty.",
+        "image": "https://images.unsplash.com/photo-1596535403955-8216afaacc99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80"
     },
     {
         "_id": "18",
@@ -202,7 +219,8 @@
             "cute",
             "fluffy"
         ],
-        "description": "Alpacas are domesticated mammals known for their soft, luxurious fleece and gentle temperament. They are members of the camelid family and are native to the Andes Mountains of South America. Alpacas are bred for their fiber, which is prized for its warmth and hypoallergenic properties. They are social animals and often kept in herds, and their endearing appearance and docile nature have made them popular farm animals and companions in various parts of the world."
+        "description": "Alpacas are domesticated mammals known for their soft, luxurious fleece and gentle temperament. They are members of the camelid family and are native to the Andes Mountains of South America. Alpacas are bred for their fiber, which is prized for its warmth and hypoallergenic properties. They are social animals and often kept in herds, and their endearing appearance and docile nature have made them popular farm animals and companions in various parts of the world.",
+        "image": "https://images.unsplash.com/photo-1572297982753-48c028401d18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80"
     },
     {
         "_id": "19",
@@ -216,7 +234,8 @@
             "large-area",
             "exotic"
         ],
-        "description": "Capybaras are the largest rodents in the world and are native to South America. They have a semi-aquatic lifestyle and are often found near bodies of water. Capybaras are social animals, living in groups and displaying a friendly and tolerant nature towards other species. With their unique appearance, including a barrel-shaped body and webbed feet, they have become popular and beloved animals in many regions, often captivating people with their relaxed and easy-going demeanor."
+        "description": "Capybaras are the largest rodents in the world and are native to South America. They have a semi-aquatic lifestyle and are often found near bodies of water. Capybaras are social animals, living in groups and displaying a friendly and tolerant nature towards other species. With their unique appearance, including a barrel-shaped body and webbed feet, they have become popular and beloved animals in many regions, often captivating people with their relaxed and easy-going demeanor.",
+        "image": "https://images.unsplash.com/photo-1525434280327-e525e03f17ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
     },
     {
         "_id": "20",
@@ -228,6 +247,7 @@
             "farm-animal",
             "feathers"
         ],
-        "description": "Chickens are domesticated birds that are widely raised for their meat and eggs. They belong to the Gallus gallus domesticus species and have a history of association with humans dating back thousands of years. Chickens come in various breeds and exhibit diverse plumage patterns and colors. They are known for their clucking sounds, scratching behavior, and the ability to provide a sustainable source of food for humans. Chickens are also often kept as pets or in backyard flocks for their companionship and the joy of collecting fresh eggs."
+        "description": "Chickens are domesticated birds that are widely raised for their meat and eggs. They belong to the Gallus gallus domesticus species and have a history of association with humans dating back thousands of years. Chickens come in various breeds and exhibit diverse plumage patterns and colors. They are known for their clucking sounds, scratching behavior, and the ability to provide a sustainable source of food for humans. Chickens are also often kept as pets or in backyard flocks for their companionship and the joy of collecting fresh eggs.",
+        "image": "https://images.unsplash.com/photo-1556316918-880f9e893822?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2148&q=80"
     }
 ]
