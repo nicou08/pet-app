@@ -3,3 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .triangleR {
+    width: 50%;
+    height: 150px;
+    background: radial-gradient(180% 180% at left -65% bottom -65%, transparent 99%, rgb(239, 68, 68));
+  }
+  .triangleRR {
+    width: 30%;
+    height: 150px;
+    background-size: 180% 180%;
+    background-position: left -65% bottom -65%;
+    border-radius: 100% 0 0 0;
+    background: rgb(239, 68, 68);
+  }
+}

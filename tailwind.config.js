@@ -14,6 +14,9 @@ module.exports = {
       colors: {
         "primary-orange": "#FF5722",
       },
+      textUnderlineOffset: {
+        9: '2.1rem',
+      }
     },
   },
   plugins: [],
