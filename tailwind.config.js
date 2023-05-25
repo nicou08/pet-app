@@ -10,6 +10,8 @@ module.exports = {
       fontFamily: {
         satoshi: ["Satoshi", "sans-serif"],
         andika: ["Andika", "sans-serif"],
+        cedarcursive: ["Cedarville Cursive", "cursive"],
+        dancingScript: ["Dancing Script", "cursive"],
       },
       colors: {
         "primary-orange": "#FF5722",

@@ -7,16 +7,16 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   function isActive(route: string) {
     if (route === usePathname()) {
-      return "font-andika mx-7 text-3xl font-bold ease-in duration-100";
+      return "font-andika font-bold mx-2 text-3xl ease-in duration-300";
     } else {
-      return "font-andika mx-7 ease-in duration-100";
+      return "font-andika mx-7 ease-in duration-300";
     }
   }
 
   return (
     <header className="relative h-24 bg-gradient-to-r from-yellow-200 via-orange-400 to-red-600">
       <h1>My Pet</h1>
-      <nav className="text-white text-center text-2xl">
+      <nav className="text-center text-white text-2xl">
         <Link href="/" className={isActive("/")}>
           Home
         </Link>

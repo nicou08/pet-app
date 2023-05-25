@@ -1,21 +1,80 @@
-@import url("https://fonts.googleapis.com/css2?family=Andika&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Andika&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Andika&family=Cedarville+Cursive&family=Dancing+Script:wght@500&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .triangleR {
-    width: 50%;
-    height: 150px;
-    background: radial-gradient(180% 180% at left -65% bottom -65%, transparent 99%, rgb(239, 68, 68));
+@keyframes travel1 {
+  from {
+    transform: translateX(0%);
   }
-  .triangleRR {
-    width: 30%;
-    height: 150px;
-    background-size: 180% 180%;
-    background-position: left -65% bottom -65%;
-    border-radius: 100% 0 0 0;
-    background: rgb(239, 68, 68);
+  to {
+    transform: translateX(2700%);
   }
+}
+
+.travel1 {
+  animation: travel1 120s linear infinite;
+}
+
+.travel1:nth-child(1) {
+  animation-delay: 0s;
+}
+.travel1:nth-child(2) {
+  animation-delay: 6s;
+}
+.travel1:nth-child(3) {
+  animation-delay: 12s;
+}
+.travel1:nth-child(4) {
+  animation-delay: 18s;
+}
+.travel1:nth-child(5) {
+  animation-delay: 24s;
+}
+.travel1:nth-child(6) {
+  animation-delay: 30s;
+}
+.travel1:nth-child(7) {
+  animation-delay: 36s;
+}
+.travel1:nth-child(8) {
+  animation-delay: 42s;
+}
+.travel1:nth-child(9) {
+  animation-delay: 48s;
+}
+.travel1:nth-child(10) {
+  animation-delay: 54s;
+}
+.travel1:nth-child(11) {
+  animation-delay: 60s;
+}
+.travel1:nth-child(12) {
+  animation-delay: 66s;
+}
+.travel1:nth-child(13) {
+  animation-delay: 72s;
+}
+.travel1:nth-child(14) {
+  animation-delay: 78s;
+}
+.travel1:nth-child(15) {
+  animation-delay: 84s;
+}
+.travel1:nth-child(16) {
+  animation-delay: 90s;
+}
+.travel1:nth-child(17) {
+  animation-delay: 96s;
+}
+.travel1:nth-child(18) {
+  animation-delay: 102s;
+}
+.travel1:nth-child(19) {
+  animation-delay: 108s;
+}
+.travel1:nth-child(20) {
+  animation-delay: 114s;
 }
