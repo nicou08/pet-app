@@ -18,6 +18,10 @@ module.exports = {
       },
       textUnderlineOffset: {
         9: '2.1rem',
+      },
+      height: {
+        '99': "43rem",
+        '32': "75%",
       }
     },
   },

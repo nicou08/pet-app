@@ -5,12 +5,23 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.customHeight {
+  height: calc(100vh - 9.5rem);
+}
+
 @keyframes travel1 {
   from {
-    transform: translateX(0%);
+    position: absolute;
+    top: 0;
+    visibility: visible;
+    transform: translateX(-100%) translateY(0);
   }
   to {
-    transform: translateX(2700%);
+    position: absolute;
+    top: 0;
+    visibility: visible;
+    transform: translateX(2600%) translateY(0);
   }
 }
 

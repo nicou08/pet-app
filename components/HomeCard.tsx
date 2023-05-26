@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 interface props {
@@ -9,7 +8,7 @@ interface props {
 
 export default function HomeCard(props: props) {
   return (
-    <div className="shadow-xl rounded-xl w-2/12 left-[-19%] absolute travel1">
+    <div className="shadow-xl rounded-xl w-96 bg-white travel1 invisible">
       {props.pet === "Guinea pigs" ? (
         <img
           src="/greg.jpeg"
