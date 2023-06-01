@@ -20,9 +20,12 @@ module.exports = {
         9: '2.1rem',
       },
       height: {
-        '99': "43rem",
+        '99': "44rem",
         '32': "75%",
-      }
+      },
+      margin: {
+        '98': "44rem",
+      },
     },
   },
   plugins: [],
