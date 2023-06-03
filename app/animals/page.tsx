@@ -1,9 +1,12 @@
 import AnimalAnmComp from "@/components/AnimalAnmComp";
 
 async function getAnimals() {
-  const res = await fetch("http://localhost:3000/api/animals", {
+  const res = await fetch("http://pet-app-theta.vercel.app/api/animals", {
     next: { revalidate: 60 },
   });
+  // const res = await fetch("http://localhost:3000/api/animals", {
+  //   next: { revalidate: 60 },
+  // });
   return res.json();
 }
 
