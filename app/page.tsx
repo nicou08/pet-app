@@ -1,7 +1,7 @@
 import HomeCard from "@/components/HomeCard";
 
 async function getAnimalPics() {
-  const res = await fetch("http://pet-app-theta.vercel.app/api/animals", {
+  const res = await fetch("https://pet-app-theta.vercel.app/api/animals", {
     next: { revalidate: 60 },
   });
   // const res = await fetch("http://localhost:3000/api/animals", {
