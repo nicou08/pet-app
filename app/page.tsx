@@ -17,7 +17,7 @@ export default async function Home() {
       </div>
       <div className="w-full h-99 relative overflow-hidden">
         {animalPicData.map((animal: any) => (
-          <HomeCard animalData={animal} />
+          <HomeCard animalData={animal} key={animal._id}/>
         ))}
       </div>
     </div>

@@ -6,7 +6,7 @@ interface props {
 
 export default function Animal({ searchParams }: props) {
   return (
-    <div className="flex justify-center items-center h-101">
+    <div className="flex justify-center items-center h-101" key={searchParams._id}>
       <div className="w-7/12 h-auto flex">
         {searchParams.animal === "Guinea pigs" ||
         searchParams.animal === "Hamsters" ||
@@ -44,8 +44,8 @@ export default function Animal({ searchParams }: props) {
           </div>
           <div className="font-bold">Tags</div>
           <div className="flex pb-2">
-            {searchParams.tags.map((tag: any) => (
-              <div className="mr-2">{tag}</div>
+            {searchParams.tags.map((tag: any, index: any) => (
+              <div className="mr-2" key={index}>{tag}</div>
             ))}
           </div>
           <div className="font-bold">Description</div>

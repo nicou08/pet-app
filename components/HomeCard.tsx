@@ -1,12 +1,13 @@
 import Link from "next/link";
 
 interface props {
+  key: any;
   animalData: any;
 }
 
 export default function HomeCard(props: props) {
   return (
-    <div className="shadow-xl rounded-xl w-96 bg-white travel1 invisible cursor-pointer">
+    <div className="shadow-xl rounded-xl w-96 bg-white travel1 invisible cursor-pointer" key={props.key}>
       {props.animalData.animal === "Guinea pigs" ? (
         <Link
           href={{
@@ -27,8 +28,8 @@ export default function HomeCard(props: props) {
             className="rounded-t-xl"
           />
           <div className="p-5 flex">
-            {props.animalData.tags.map((tag: any) => (
-              <div className="mr-2">{tag}</div>
+            {props.animalData.tags.map((tag: any, index: any) => (
+              <div className="mr-2" key={index}>{tag}</div>
             ))}
             <div>pachon</div>
           </div>
@@ -53,8 +54,8 @@ export default function HomeCard(props: props) {
             className="rounded-t-xl"
           />
           <div className="p-5 flex">
-            {props.animalData.tags.map((tag: any) => (
-              <div className="mr-2">{tag}</div>
+            {props.animalData.tags.map((tag: any, index: any) => (
+              <div className="mr-2" key={index}>{tag}</div>
             ))}
           </div>
         </Link>
