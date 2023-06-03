@@ -1,14 +1,45 @@
 import Link from "next/link";
 
 interface props {
-  pet: string;
-  image: string;
+  animalData: any;
 }
 
 export default function AnimalAnmComp(props: props) {
-  return (
-    <div>
-      <div className="text-xl">{props.pet}</div>
-    </div>
+  return props.animalData.animal === "Guinea pigs" ? (
+    <Link
+      href={{
+        pathname: `/animals/${props.animalData.animal}`,
+        query: {
+          animal: props.animalData.animal,
+          type: props.animalData.type,
+          tags: props.animalData.tags,
+          image: "/greg.jpeg",
+          description: props.animalData.description,
+        },
+      }}
+      className="text-xl"
+    >
+      <div className="shadow h-28 w-72 flex justify-center items-center hover:bg-amber-100 cursor-pointer">
+        {props.animalData.animal}
+      </div>
+    </Link>
+  ) : (
+    <Link
+      href={{
+        pathname: `/animals/${props.animalData.animal}`,
+        query: {
+          animal: props.animalData.animal,
+          type: props.animalData.type,
+          tags: props.animalData.tags,
+          image: props.animalData.image,
+          description: props.animalData.description,
+        },
+      }}
+      className="text-xl"
+    >
+      <div className="shadow h-28 w-72 flex justify-center items-center hover:bg-amber-100 cursor-pointer">
+        {props.animalData.animal}
+      </div>
+    </Link>
   );
 }

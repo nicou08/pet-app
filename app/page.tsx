@@ -1,7 +1,7 @@
 import HomeCard from "@/components/HomeCard";
 
 async function getAnimalPics() {
-  const res = await fetch("http://localhost:3000/api/animalPic", {
+  const res = await fetch("http://localhost:3000/api/animals", {
     next: { revalidate: 60 },
   });
   return res.json();
@@ -9,7 +9,6 @@ async function getAnimalPics() {
 
 export default async function Home() {
   const animalPicData = await getAnimalPics();
-  const s: string[] = ["pachon", "pachon2", "pachon3"];
 
   return (
     <div className="w-full overflow-hidden">
@@ -17,8 +16,8 @@ export default async function Home() {
         Choose a pet you are interested in learning of!
       </div>
       <div className="w-full h-99 relative overflow-hidden">
-        {animalPicData.map((anmPic: any) => (
-          <HomeCard pet={anmPic.animal} image={anmPic.image} tags={anmPic.tags} />
+        {animalPicData.map((animal: any) => (
+          <HomeCard animalData={animal} />
         ))}
       </div>
     </div>

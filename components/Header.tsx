@@ -15,8 +15,7 @@ export default function Header() {
 
   return (
     <header className="relative h-24 bg-gradient-to-r from-yellow-200 via-orange-400 to-red-600">
-      <h1>My Pet</h1>
-      <nav className="text-center text-white text-2xl">
+      <nav className="text-center text-white text-2xl pt-6">
         <Link href="/" className={isActive("/")}>
           Home
         </Link>
