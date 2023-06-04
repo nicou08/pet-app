@@ -8,21 +8,21 @@ export default function Animal({ searchParams }: props) {
   return (
     <div className="flex justify-center items-center h-101" key={searchParams._id}>
       <div className="w-7/12 h-auto flex">
-        {searchParams.animal === "Guinea pigs" ||
-        searchParams.animal === "Hamsters" ||
-        searchParams.animal === "Lizzards" ||
-        searchParams.animal === "Horses" ||
-        searchParams.animal === "Turtles" ||
-        searchParams.animal === "Hedgehogs" ||
-        searchParams.animal === "Chickens" ||
-        searchParams.animal === "Dog" ? (
+        {searchParams.pet === "Guinea pigs" ||
+        searchParams.pet === "Hamsters" ||
+        searchParams.pet === "Lizzards" ||
+        searchParams.pet === "Horses" ||
+        searchParams.pet === "Turtles" ||
+        searchParams.pet === "Hedgehogs" ||
+        searchParams.pet === "Chickens" ||
+        searchParams.pet === "Dog" ? (
           <div style={{ width: "3000px", height: "auto" }}>
             <img
               src={searchParams.image}
               alt="pet image"
               className="w-full h-auto"
             />
-            {searchParams.animal === "Guinea pigs" ? (
+            {searchParams.pet === "Guinea pigs" ? (
               <div>Special Note: This my 2 year old guinea pig. His name is Greg.</div>
             ) : null}
           </div>
@@ -37,7 +37,7 @@ export default function Animal({ searchParams }: props) {
         )}
 
         <div className="p-5 font-andika">
-          <div className="text-5xl font-bold pb-5">{searchParams.animal}</div>
+          <div className="text-5xl font-bold pb-5">P{searchParams.pet}</div>
           <div className="flex pb-2">
             <div className="font-bold">Type: </div>
             <div className="ml-2">{searchParams.type}</div>

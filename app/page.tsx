@@ -19,8 +19,8 @@ export default async function Home() {
         Choose a pet you are interested in learning of!
       </div>
       <div className="w-full h-99 relative overflow-hidden">
-        {animalPicData.map((animal: any) => (
-          <HomeCard animalData={animal} key={animal._id}/>
+        {animalPicData.map((ani: any) => (
+          <HomeCard animalData={ani} key={ani._id}/>
         ))}
       </div>
     </div>
