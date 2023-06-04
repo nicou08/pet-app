@@ -8,14 +8,14 @@ export default function Animal({ searchParams }: props) {
   return (
     <div className="flex justify-center items-center h-101" key={searchParams._id}>
       <div className="w-7/12 h-auto flex">
-        {searchParams.pet === "Guinea pigs" ||
-        searchParams.pet === "Hamsters" ||
-        searchParams.pet === "Lizzards" ||
-        searchParams.pet === "Horses" ||
-        searchParams.pet === "Turtles" ||
-        searchParams.pet === "Hedgehogs" ||
-        searchParams.pet === "Chickens" ||
-        searchParams.pet === "Dog" ? (
+        {searchParams._id === "6" ||
+        searchParams._id === "5" ||
+        searchParams._id === "8" ||
+        searchParams._id === "12" ||
+        searchParams._id === "9" ||
+        searchParams._id === "16" ||
+        searchParams._id === "20" ||
+        searchParams._id === "1" ? (
           <div style={{ width: "3000px", height: "auto" }}>
             <img
               src={searchParams.image}
