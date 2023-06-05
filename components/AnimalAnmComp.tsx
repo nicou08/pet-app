@@ -27,6 +27,7 @@ export default function AnimalAnmComp(props: props) {
       </div>
     </Link>
   ) : (
+    console.log("INSIDE MAPPPP ANIMALANMCOMP PROPS.animalData.animal:", props.animalData.animal),
     <Link
       href={{
         pathname: `/animals/${props.animalData.animal}`,

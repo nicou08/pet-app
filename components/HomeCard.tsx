@@ -12,6 +12,7 @@ export default function HomeCard(props: props) {
   return (
     <div className="shadow-xl rounded-xl w-96 bg-white travel1 invisible cursor-pointer" key={props.key}>
       {props.animalData.animal === "Guinea pigs" ? (
+        console.log("INSIDE MAPPPP HOMECARD PROPS.animalData.animal === Guinea pigs: ", props.animalData.animal),
         <Link
           href={{
             pathname: `/animals/${props.animalData.animal}`,
@@ -39,6 +40,7 @@ export default function HomeCard(props: props) {
           </div>
         </Link>
       ) : (
+        console.log("INSIDE MAPPPP HOMECARD PROPS.animalData.animal: ", props.animalData.animal),
         <Link
           href={{
             pathname: `/animals/${props.animalData.animal}`,
