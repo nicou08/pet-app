@@ -12,6 +12,7 @@ export default function AnimalAnmComp(props: props) {
         pathname: `/animals/${props.animalData.animal}`,
         query: {
           pet: props.animalData.animal,
+          pet2: props.animalData.animal,
           type: props.animalData.type,
           tags: props.animalData.tags,
           image: "/greg.jpeg",
