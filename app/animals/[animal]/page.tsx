@@ -5,6 +5,7 @@ interface props {
 }
 
 export default function Animal({ searchParams }: props) {
+  console.log("ASDFASDF searchParams: ", searchParams);
   return (
     <div className="flex justify-center items-center h-101" key={searchParams._id}>
       <div className="w-7/12 h-auto flex">
