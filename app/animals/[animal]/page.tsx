@@ -39,7 +39,7 @@ export default function Animal({ searchParams }: props) {
         )}
 
         <div className="p-5 font-andika">
-          <div className="text-5xl font-bold pb-5">P{searchParams.pet}</div>
+          <div className="text-5xl font-bold pb-5">PLEASEE{searchParams.pet}</div>
           <div className="flex pb-2">
             <div className="font-bold">Type: </div>
             <div className="ml-2">{searchParams.type}</div>
