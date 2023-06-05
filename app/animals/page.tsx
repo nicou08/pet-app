@@ -12,6 +12,7 @@ async function getAnimals() {
 
 export default async function Animals() {
   const animalData = await getAnimals();
+  console.log("Data here: ", animalData);
 
   return (
     <div className="">

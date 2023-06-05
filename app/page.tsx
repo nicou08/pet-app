@@ -12,6 +12,7 @@ async function getAnimalPics() {
 
 export default async function Home() {
   const animalPicData = await getAnimalPics();
+  console.log("Data here: ", animalPicData);
 
   return (
     <div className="w-full overflow-hidden">
