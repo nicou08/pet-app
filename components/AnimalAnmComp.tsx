@@ -6,6 +6,7 @@ interface props {
 
 export default function AnimalAnmComp(props: props) {
   console.log("ANIMALANMCOMP PROPS: ", props);
+  console.log("ANIMALANMCOMP PROPS.animalData.animal: ", props.animalData.animal);
   return props.animalData.animal === "Guinea pigs" ? (
     <Link
       href={{
