@@ -12,7 +12,7 @@ async function getAnimalPics() {
 
 export default async function Home() {
   const animalPicData = await getAnimalPics();
-  console.log("Data here: ", animalPicData);
+  console.log("HOMEPAGE DATA IS HERE: ", animalPicData);
 
   return (
     <div className="w-full overflow-hidden">
@@ -21,7 +21,7 @@ export default async function Home() {
       </div>
       <div className="w-full h-99 relative overflow-hidden">
         {animalPicData.map((ani: any) => (
-          console.log("ani: ", ani),
+          console.log("HOMEPAGE ANI IS HERE ani: ", ani),
           <HomeCard animalData={ani} key={ani._id}/>
         ))}
       </div>
