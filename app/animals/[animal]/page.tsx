@@ -1,4 +1,4 @@
-//"use client";
+"use client";
 import Image from "next/image";
 
 interface props {
@@ -7,6 +7,11 @@ interface props {
 
 export default function Animal({ searchParams }: props) {
   console.log("ASDFASDFsearchParams: ", searchParams);
+  function handleClick() {
+    console.log("CLICKED");
+    console.log("ASDFASDFsearchParams: ", searchParams);
+  }
+  
   return (
     <div className="flex justify-center items-center h-101" key={searchParams._id}>
       <div className="w-7/12 h-auto flex">
@@ -39,6 +44,7 @@ export default function Animal({ searchParams }: props) {
         )}
 
         <div className="p-5 font-andika">
+          <div onClick={handleClick}>HELLPPINGG</div>
           <div className="text-5xl font-bold pb-5">PLEASEE{searchParams.pet2}</div>
           <div className="flex pb-2">
             <div className="font-bold">Type: </div>
