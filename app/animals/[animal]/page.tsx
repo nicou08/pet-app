@@ -6,7 +6,6 @@ interface props {
 }
 
 export default function Animal({ searchParams }: props) {
-  console.log("ASDFASDFsearchParams: ", searchParams);
   function handleClick() {
     console.log("CLICKED");
     console.log("ASDFASDFsearchParams: ", searchParams);
@@ -44,8 +43,7 @@ export default function Animal({ searchParams }: props) {
         )}
 
         <div className="p-5 font-andika">
-          <div onClick={handleClick}>HELLPPINGG</div>
-          <div className="text-5xl font-bold pb-5">PLEASEE{searchParams.pet}</div>
+          <div className="text-5xl font-bold pb-5">{searchParams.pet}</div>
           <div className="flex pb-2">
             <div className="font-bold">Type: </div>
             <div className="ml-2">{searchParams.type}</div>

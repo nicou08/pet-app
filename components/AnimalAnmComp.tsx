@@ -22,7 +22,7 @@ export default function AnimalAnmComp(props: props) {
       className="text-xl"
     >
       <div className="shadow h-28 w-72 flex justify-center items-center hover:bg-amber-100 cursor-pointer">
-        {props.animalData.animal}GREG{props.animalData.animal}
+        {props.animalData.animal}
       </div>
     </Link>
   ) : (
@@ -41,7 +41,7 @@ export default function AnimalAnmComp(props: props) {
       className="text-xl"
     >
       <div className="shadow h-28 w-72 flex justify-center items-center hover:bg-amber-100 cursor-pointer">
-        {props.animalData.animal}**{props.animalData.animal}
+        {props.animalData.animal}
       </div>
     </Link>
   );
