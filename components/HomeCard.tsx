@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface props {
   key: any;
@@ -21,7 +22,7 @@ export default function HomeCard(props: props) {
             },
           }}
         >
-          <img
+          <Image
             src="/greg.jpeg"
             alt="greg image"
             style={{ width: "100%", height: "auto" }}
@@ -47,7 +48,7 @@ export default function HomeCard(props: props) {
             },
           }}
         >
-          <img
+          <Image
             src={props.animalData.image}
             alt="pet image"
             style={{ width: "100%", height: "auto" }}

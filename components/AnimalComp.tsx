@@ -17,9 +17,9 @@ export default function AnimalComp(props: props) {
       <div> {props.tags} </div>
       <div> {props.description} </div>
       {props.pet === "Guinea pigs" ? (
-        <img src="/greg.jpeg" alt="greg image" height={100} width={100} />
+        <Image src="/greg.jpeg" alt="greg image" height={100} width={100} />
       ) : (
-        <img src={props.image} alt="pet image" height={100} width={100} />
+        <Image src={props.image} alt="pet image" height={100} width={100} />
       )}
     </div>
   );

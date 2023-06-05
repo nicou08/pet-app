@@ -1,4 +1,5 @@
-"use client";
+//"use client";
+import Image from "next/image";
 
 interface props {
   searchParams: any;
@@ -18,7 +19,7 @@ export default function Animal({ searchParams }: props) {
         searchParams.pet === "Chickens" ||
         searchParams.pet === "Dog" ? (
           <div style={{ width: "3000px", height: "auto" }}>
-            <img
+            <Image
               src={searchParams.image}
               alt="pet image"
               className="w-full h-auto"
@@ -29,7 +30,7 @@ export default function Animal({ searchParams }: props) {
           </div>
         ) : (
           <div style={{ width: "1400px", height: "auto" }}>
-            <img
+            <Image
               src={searchParams.image}
               alt="pet image"
               className="w-full h-auto"
