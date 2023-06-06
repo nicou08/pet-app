@@ -29,7 +29,3 @@ export default async function Home() {
     </div>
   );
 }
-
-// export default async function Home() {
-//   return <div>Hello</div>
-// }

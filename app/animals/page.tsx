@@ -35,7 +35,3 @@ export default async function Animals() {
     </div>
   );
 }
-
-// export default function Animals() {
-//   return <div>Hello</div>
-// }

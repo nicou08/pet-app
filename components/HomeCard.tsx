@@ -7,8 +7,6 @@ interface props {
 }
 
 export default function HomeCard(props: props) {
-  console.log("HOMECARD PROPS: ", props);
-  console.log("HOMECARD PROPS.animalData.animal: ", props.animalData.animal);
   return (
     <div className="shadow-xl rounded-xl w-96 bg-white travel1 invisible cursor-pointer" key={props.key}>
       {props.animalData.animal === "Guinea pigs" ? (

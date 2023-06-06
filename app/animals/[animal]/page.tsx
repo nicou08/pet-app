@@ -29,7 +29,7 @@ export default function Animal({ searchParams }: props) {
               className="w-full h-auto"
             />
             {searchParams.pet === "Guinea pigs" ? (
-              <div>Special Note: This my 2 year old guinea pig. His name is Greg.</div>
+              <div>Special Note: This is my 2 year old guinea pig. His name is Greg.</div>
             ) : null}
           </div>
         ) : (
