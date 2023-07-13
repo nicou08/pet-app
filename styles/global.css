@@ -5,6 +5,32 @@
 @tailwind components;
 @tailwind utilities;
 
+.my-custom-class::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  transition: width 0.3s;
+}
+
+.my-custom-class:hover::after {
+  width: 50%;
+}
+
+.on-page::after {
+  content: "";
+  width: 50%;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+}
 
 .customHeight {
   height: calc(100vh - 9.5rem);
