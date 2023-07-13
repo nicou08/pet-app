@@ -17,11 +17,11 @@ export default async function Animals() {
 
   return (
     <div className="">
-      <div className="font-dancingScript font-bold text-4xl flex justify-center  pt-16 pb-14 mr-98">
+      <div className="font-dancingScript font-bold text-4xl flex justify-center  pt-16 pb-14 mr-0 lg:mr-98">
         Animals
       </div>
       <div className="flex justify-center">
-        <ul className="grid grid-cols-4 gap-x-0 text-center gap-0">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-0 text-center gap-0">
           {animalData.map((anmm: any) => (
             <li
               key={anmm._id}
